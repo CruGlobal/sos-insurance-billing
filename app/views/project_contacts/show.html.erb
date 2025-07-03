@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @project_contact %>
+
+<div>
+  <%= link_to "Edit this project contact", edit_project_contact_path(@project_contact) %> |
+  <%= link_to "Back to project contacts", project_contacts_path %>
+
+  <%= button_to "Destroy this project contact", @project_contact, method: :delete %>
+</div>

@@ -1,3 +1,3 @@
-# sos-insurance-billing, 
-# hiiiiiii ryan
-# hello curren
+# README
+
+Beginning of the SOS-Insurance-Billing Rails Application

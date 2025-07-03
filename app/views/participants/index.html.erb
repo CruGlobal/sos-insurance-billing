@@ -1,0 +1,17 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Participants" %>
+
+<h1>Participants</h1>
+
+<div id="participants">
+  <% @participants.each do |participant| %>
+    <%= render participant %>
+    <p>
+      <%= link_to "Show this participant", project_participant_path(participant.project, participant) %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New participant", new_project_participant_path(@project) %>
+
