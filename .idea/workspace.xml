@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2402997f-c4c9-4109-b679-c019a0f9003f" name="Changes" comment="added participant and project functionality. currently cannot navigate from participant back to projects.">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sos-insurance-billing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sos-insurance-billing.iml" afterDir="false" />
+    <list default="true" id="2402997f-c4c9-4109-b679-c019a0f9003f" name="Changes" comment="grouped the project information together within _project.html.erb">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/participants/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/participants/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/participants/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/participants/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/projects/_project.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/_project.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/projects/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/projects/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dev" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dev" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rails" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;I do mind&quot;,
     &quot;com.intellij.lang.ruby.rbs.tools.collection.workspace.sync.RbsCollectionUpdateProjectActivity#LAST_UPDATE_TIMESTAMP&quot;: &quot;1751571535590&quot;,
     &quot;credentialsType org.jetbrains.plugins.ruby.remote.impl.RubyCreateRemoteInterpreterDialog$RubyCreateRemoteSdkForm&quot;: &quot;WSL&quot;,
     &quot;git-widget-placeholder&quot;: &quot;curren's-work&quot;,
@@ -125,7 +128,9 @@
       <workItem from="1751899144734" duration="126000" />
       <workItem from="1751899330017" duration="10916000" />
       <workItem from="1751914145954" duration="431000" />
-      <workItem from="1751915214302" duration="4845000" />
+      <workItem from="1751915214302" duration="6814000" />
+      <workItem from="1751981696491" duration="2949000" />
+      <workItem from="1751985175151" duration="4206000" />
     </task>
     <task id="LOCAL-00001" summary="changed readme">
       <option name="closed" value="true" />
@@ -223,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751910029902</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="grouped the project information together within _project.html.erb">
+      <option name="closed" value="true" />
+      <created>1751920287855</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1751920287855</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +259,7 @@
     <MESSAGE value="added project and participant functionality. currently cannot natigate from participant back to projects" />
     <MESSAGE value="Creates .gitignore and removes .idea dir&#10;&#10;Ignores JetBrains IDE and VSCode configuration files." />
     <MESSAGE value="added participant and project functionality. currently cannot navigate from participant back to projects." />
-    <option name="LAST_COMMIT_MESSAGE" value="added participant and project functionality. currently cannot navigate from participant back to projects." />
+    <MESSAGE value="grouped the project information together within _project.html.erb" />
+    <option name="LAST_COMMIT_MESSAGE" value="grouped the project information together within _project.html.erb" />
   </component>
 </project>

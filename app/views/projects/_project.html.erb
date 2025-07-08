@@ -1,5 +1,5 @@
 <div id="<%= dom_id project %>" class="my-5">
-  <div class="inline-block p-6 bg-white border border-gray-300 rounded-xl shadow-md space-y-6">
+  <div class="inline-block p-6 bg-white border border-gray-300 rounded-xl shadow-md space-y-6 space-x-6">
 
     <!-- Name -->
     <div>
@@ -15,9 +15,9 @@
 
     <!-- Button Group -->
     <div class="flex flex-wrap items-center gap-4">
-      <%= link_to "Show", project, class: "text-center rounded-md px-4 py-2 bg-gray-100 hover:bg-gray-50 font-medium" %>
-      <%= link_to "Edit", edit_project_path(project), class: "text-center rounded-md px-4 py-2 bg-gray-100 hover:bg-gray-50 font-medium" %>
-      <%= button_to "Destroy", project, method: :delete, class: "rounded-md px-4 py-2 text-white bg-red-600 hover:bg-red-500 font-medium", data: { turbo_confirm: "Are you sure?" } %>
+      <%= link_to "Edit", edit_project_path(project), class: "text-center rounded-md px-5 py-3 bg-gray-100 hover:bg-gray-50 font-medium" %>
+      <%= button_to "Destroy Project", project, method: :delete, form_class: "inline", class: "rounded-md px-5 py-3 text-white bg-red-600 hover:bg-red-500 font-medium", data: { turbo_confirm: "Are you sure?" } %>
+      <%= link_to "Show Participants", project_participants_path(project), class: "text-center rounded-md px-5 py-3 bg-gray-100 hover:bg-gray-50 font-medium" %>
       <%= link_to 'New Participant', new_project_participant_path(project), class: "text-blue-600 underline font-medium" %>
     </div>
 
